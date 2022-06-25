@@ -1,0 +1,1 @@
+{"data_search_variables":{"roi_threshold":"40","buy_price_threshold":"30"},"overhead_costs":{"prep_fee_per_item":"1","handling_per_kg":"1","assumed_shipping_and_other_costs_per_item":"0.5","vat":"20"},"analysis_data":{"target_roi_after_fees":"30","target_profit_after_fees":"3"},"advanced":{"sales_per_keepa_bsr_drop":"X","min_target_sales_per_month":"X"},"license":""}

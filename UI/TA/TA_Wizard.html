@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ArbitrageWarrior</title>
+    <link rel="stylesheet" href="TA.css">
+    <link rel="stylesheet" href="./../node_modules/material-design-icons/iconfont/material-icons.css">
+  </head>
+  <body>
+    <div id='header'>
+      <h1 id='title'>Tactical Arbitrage Wizard</h1>
+    </div>
+    <div id='buttons'>
+      <button id='cancel'>Cancel</button>
+      <button id='back'>Back</button>
+      <button id='next'>Next</button>
+      <button id='finish'>Finish</button>
+    </div>
+    <div id='content'>
+      <div class="block b1">
+          <div class="tooltip">
+              <i class="material-icons test" style="font-size:14px;color:#1F618D;">&#xe887;</i>
+              <span class="tooltiptext">Please enter the URL to the TA Google Drive CSV file</span>
+          </div>
+          <label id="ds">Data Source Url</label>
+          <input value="1miwfe_0xtod337caEsGBcwwUlz8zbmXO" id="url">
+      </div>
+      <div class="block b2">
+          <div class="tooltip">
+              <i class="material-icons test" style="font-size:14px;color:#1F618D;">&#xe887;</i>
+              <span class="tooltiptext">Please enter the URL for the Google Sheets file to append the results to</span>
+          </div>
+          <label id="loc">Output Url</label>
+          <input value="TA.csv" id="out">
+      </div>
+    </div>
+    <script>
+      require('./../Shared/renderer.js');
+      require('./TA.js');
+    </script>
+  </body>
+</html>

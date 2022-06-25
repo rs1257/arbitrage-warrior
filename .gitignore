@@ -1,0 +1,19 @@
+# Build files #
+###############
+*.tlog
+*.lastbuildstate
+*.exe
+*.ilk
+*.log
+*.obj
+*.pdb
+*.idb
+*.suo
+*.VC.db
+*.ipch
+[Db]ebug*/
+[Bb]in*/
+[Rr]elease*/
+ipch/
+x64/
+

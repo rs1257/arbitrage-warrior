@@ -1,0 +1,50 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 60%;
+}
+
+input {
+    color: rgba(0, 60, 255, 0.568);
+    width: 90%;
+    position: fixed;
+    left: 5%;
+    top: 75%;
+}
+
+button {
+    background-color: #008CBA;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    position: fixed;
+    left: 40%;
+    top: 80%;
+}
+
+body {
+    background: #1F618D;
+}
+
+#logo {
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    right: 5%;
+    height: 45%;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
